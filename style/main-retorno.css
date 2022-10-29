@@ -1,0 +1,12 @@
+.main-retorno{
+    display: flex;
+    justify-content: center;
+}
+.layout-retorno{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

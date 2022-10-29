@@ -1,0 +1,76 @@
+.main-contato{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.main-container{
+    text-align: center;
+    background-color: #f1f1f1;
+   
+}
+
+#h2-contato{
+    padding: 30px;
+    color: #fff;
+    background-color: #2c5aaf;
+}
+
+.info-contato{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.label-contato{
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+.input-contato{
+    font-size: 1rem;
+    padding: 9px;
+    border-radius: 10px;
+    border: 2px solid;
+    width: 30%;
+}
+
+input::placeholder, textarea::placeholder{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    
+}
+
+textarea{
+    font-size: 1rem;
+}
+select{
+    font-size: 1rem;    
+}
+
+form input, form label, form textarea{
+    outline: unset;
+}
+
+#select-form{
+    width: 30%;
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 30%;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 167px;
+    margin-bottom: 20px;
+}
+
+.audio-contato{
+    padding: 40px;
+}
+

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça seu pedido</title>
+    <link rel="shortcut icon" href="img/restaurant-icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/resetStyle.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="./img/download.svg" alt="svg fork"></a>
+            <ul class="link-container">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pedido.html">Faça seu pedido</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class='main-pedido'>
+        <span class="layout-pedido">
+            <form action="./retorno-pedido.html" method="get">
+                <h2 class="h2-pedido">Realize seu pedido conosco:</h2>
+                <h3>Nossas entradas:</h3>
+                <div class="padronizacao-grid">
+                    <div class="card-img">
+                        <div id="img-pedido-1"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="salada">
+                            <label for="salada">Salada ao molho vinagrete</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-2"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="pasteis">
+                            <label for="pasteis">Conjunto de pasteis</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-3"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="queijos">
+                            <label for="queijos">Tábua de queijos</label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Nossos pratos principais:</h3>
+                <div class="padronizacao-grid">
+                    <div class="card-img">
+                        <div id="img-pedido-4"></div>
+                        <div class="centralizar">
+                            <input type="radio" name="prato-p" id='lasanha' required>
+                            <label for="lasanha">Lasanha de carne</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-5"></div>
+                        <div class="centralizar">
+                            <input type="radio" name="prato-p" id='fricasse' required >
+                            <label for="fricasse">Fricassê de frango</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-6"></div>
+                        <div class="centralizar">
+                            <input type="radio" name="prato-p" id='parmegiana'>
+                            <label for="parmegiana">Parmegiana</label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Nossas sobremesas:</h3>
+                <div class="padronizacao-grid">
+                    <div class="card-img">
+                        <div id="img-pedido-7"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="pudim">
+                            <label for="pudim">Pudim de leite</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-8"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="sorvete">
+                            <label for="sorvete">Taça de sorvete</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-9"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="morango">
+                            <label for="morango">Torta de morango</label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Nossas bedidas:</h3>
+                <div class="padronizacao-grid">
+                    <div class="card-img">
+                        <div id="img-pedido-10"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id='suco'>
+                            <label for="suco">Suco de laranja</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-11"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="coca">
+                            <label for="coca">Coca-cola</label>
+                        </div>
+                    </div>
+                    <div class="card-img">
+                        <div id="img-pedido-12"></div>
+                        <div class="centralizar">
+                            <input type="checkbox" id="caipirinha">
+                            <label for="caipirinha">Caipirinha</label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Informações adicionais do pedido:</h3>
+                <div class="padronizacao-textarea">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Digite informações adicionais:"></textarea>
+                </div>
+                <h3>Informações cadastrais</h3>
+                <div class="padronizacao-cadastro">
+                    <div class="geral">
+                        <div class='lado'>
+                            <div class="label-form">
+                                <label for="name">Nome:</label>
+                            </div>
+                            <input type="text" id="name" required placeholder="Digite o nome">
+                        </div>
+                        <div class="lado">
+                            <div class="label-form">
+                                <label for="cpf">CPF:</label>
+                            </div>
+                            <input type="text" id="cpf" placeholder="Digite o CPF">
+                        </div>
+                        <div class="lado">
+                            <div class="label-form">
+                                <label  for="E-mail">E-mail:</label>
+                            </div>
+                            <input type="email" id="E-mail" placeholder="Digite o e-mail">
+                        </div>
+                        <div class="lado">
+                            <div class="label-form">
+                                <label  for="telefone">Telefone:</label>
+                            </div>
+                            <input type="tel" name="telefone" id="telefone" required placeholder="Digite o telefone">
+                        </div>
+                        <div class="lado">
+                            <div class="label-form">
+                                <label  for="endereco">Endereço:</label>
+                            </div>
+                            <input type="text" id="endereco" required placeholder="Digite o endereço">
+                        </div>
+                        <input type="submit" value="Evniar">
+                        <input type="reset" value='Deletar'>
+                    </div>
+                   
+                    </div>
+            </form>
+        </span>
+    </main>
+    <footer>
+        <div class="footer-layout">
+            <h2>Siga-nos também nas redes sociais:</h2>
+            <div class="icons-footer">
+                <img class="link-icons" src="./img/instagram-svgrepo-com.svg" alt="">
+                <li class="footer-li"><a href="#">Instagram</a></li>
+                <img class="link-icons" src="./img/icons8-facebook-novo.svg" alt="">
+                <li class="footer-li"><a href="#">Facebook</a></li>
+                <img class="link-icons" src="./img/icons8-whatsapp.svg" alt="">
+                <li class="footer-li"><a href="#">Whatsapp</a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

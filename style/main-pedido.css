@@ -1,0 +1,164 @@
+.main-pedido {
+   margin: 0 auto;
+   max-width: 1250px;
+}
+
+.h2-pedido {
+    padding: 30px;
+    color: #fff;
+    background-color: #2c5aaf;
+}
+
+h3 {
+    padding: 30px;
+    font-size: 1.3rem;
+    background-color: #f1f1f1;
+}
+
+
+.padronizacao-grid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-items: center;
+    padding: 50px;
+}
+
+.padronizacao-grid div {
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+.centralizar {
+    text-align: center;
+}
+
+#img-pedido-1,
+#img-pedido-2,
+#img-pedido-3,
+#img-pedido-4,
+#img-pedido-5,
+#img-pedido-6,
+#img-pedido-7,
+#img-pedido-8,
+#img-pedido-9,
+#img-pedido-10,
+#img-pedido-11,
+#img-pedido-12 {
+    background-image: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-bottom: 15px;
+    border-radius: 20px;
+}
+
+.centralizar label {
+    font-size: 18px;
+}
+
+#img-pedido-1 {
+    background-image: url('https://images-ext-2.discordapp.net/external/u-ZGVAKOmphUXFgN6VnJUlbrJakavaTCrmKePBERxDI/https/cdn.pixabay.com/photo/2016/09/15/19/24/salad-1672505_960_720.jpg');
+}
+
+#img-pedido-2 {
+    background-image: url('https://images-ext-2.discordapp.net/external/CgLsSw6n58jlCWsE2On8_EpEYJDsbb-oNJ3KoTSggHI/https/www.comidaereceitas.com.br/wp-content/uploads/2007/11/Pastel_feiraaoo.jpg');
+
+}
+
+#img-pedido-3 {
+    background-image: url('https://images-ext-2.discordapp.net/external/EjINEsiFgVT4LvyIWxxj69AaTFoAD_yfDKHQgWBuzuQ/https/www.receitasedicasdochef.com.br/wp-content/uploads/2019/12/Dicas-para-voc%25C3%25AA-montar-uma-T%25C3%25A1bua-de-Queijos-incr%25C3%25ADvel-na-Ceia-de-Natal-2.jpg');
+
+}
+
+#img-pedido-4 {
+    background-image: url('https://images-ext-2.discordapp.net/external/y2WyXv9nw_KSPV_phOfO2T4yoIazrK8fsQ5Sp_nffd0/https/cdn.pixabay.com/photo/2017/02/15/15/17/meal-2069021_960_720.jpg');
+}
+
+#img-pedido-5 {
+    background-image: url('https://images-ext-1.discordapp.net/external/5rtgtcJ_JBzhT99UgGsn0M2fS4NRt2sbFsMrJIwuhdo/https/akdelicatessen.com.br/wp-content/uploads/2021/12/receita-fricasse-de-frango.jpg');
+}
+
+#img-pedido-6 {
+    background-image: url('https://images-ext-2.discordapp.net/external/SGPis7p4dYXhh7IbJP3RO_ugCa8ZJmrF4TPwpulEvZ8/https/www.sabornamesa.com.br/media/k2/items/cache/b7bca45bde7511e36d009c009edb72be_XL.jpg?width=1161&height=670');
+}
+
+#img-pedido-7 {
+    background-image: url('https://images-ext-2.discordapp.net/external/-Iv8yW6qQ9oe06SDC2mY_4yjpEn2yJRre4cHAIAOmjg/https/s2.glbimg.com/0IW9eAlr8zqyY3WD1CIh5trjuSg%3D/1200x/smart/filters%3Acover%28%29%3Astrip_icc%28%29/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2020/t/2/dpV1FkS4WByGHfml8S1w/pudim.jpg?width=861&height=670');
+}
+
+#img-pedido-8 {
+    background-image: url('https://images-ext-2.discordapp.net/external/ZFwvJ0HrF_0_8yGG8hHinz1Uv93K4Ps9b_EkPMvxVoM/%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D880%26q%3D80/https/images.unsplash.com/photo-1514849302-984523450cf4?width=670&height=670');
+}
+
+#img-pedido-9 {
+    background-image: url('https://images-ext-2.discordapp.net/external/4JoAYnde6xJFiGZcQo-ntsYB8LvDCwmCNnKXRDB14KI/https/www.anamariabrogui.com.br/assets/uploads/receitas/fotos/usuario-3405-d7c50f8f1e1d16ef3a40d31fd288775d.jpg');
+}
+#img-pedido-10 {
+    background-image: url('https://images-ext-1.discordapp.net/external/rIjQo5mmZFQmw6QgXo-tg7eS1bK22YyZIMYEVQ3bhDE/https/www.citrosuco.com.br/wp-content/uploads/2022/02/THUMB-05.png');
+}
+#img-pedido-11 {
+    background-image: url('https://images-ext-1.discordapp.net/external/QLPujlaDaYCk4H8lZ9VUhFwy_p8uvy-5i-PG0gdEHzs/%3Fixlib%3Drb-1.2.1%26ixid%3DMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8%26auto%3Dformat%26fit%3Dcrop%26w%3D765%26q%3D80/https/images.unsplash.com/photo-1554866585-cd94860890b7?width=536&height=670');
+}
+#img-pedido-12 {
+    background-image: url('https://images-ext-1.discordapp.net/external/u-PvVYMpH5flhZQxV6mO7r--ym4OhfWyA0kUGuaQDw0/https/t1.uc.ltmcdn.com/pt/posts/2/1/3/como_fazer_caipirinha_312_600_square.jpg');
+}
+
+.padronizacao-textarea{
+    text-align: center;
+    padding: 30px;
+}
+
+.padronizacao-cadastro{
+    text-align: center;
+}
+textarea{
+    width: 836px;
+    height: 168px;
+    padding: 10px;
+}
+
+.lado{
+    padding: 15px;
+    align-items: center;
+    
+}
+
+.lado input{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 9px;
+    width: 30%;
+}
+ 
+.label-form{
+    padding: 3px;
+} 
+
+input[type=submit] {
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: Teal;
+    color: #fff;
+    height: 30px;
+    width: 46px;
+}
+input[type=reset] {
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgb(166, 31, 31);
+    color: #fff;
+    height: 30px;
+    width: 46px;
+}
+
+input[type=submit]:hover{
+    background-color: #b9cc01;
+}
+
+input[type=reset]:hover{
+    background-color: rgb(230, 97, 97);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/resetStyle.css">
+    <link rel="shortcut icon" href="./img/restaurant-icon.svg" type="image/x-icon">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="./img/download.svg" alt="svg fork"></a>
+            <ul class="link-container">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pedido.html">Faça seu pedido</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-contato">
+        <span class="main-container">
+            <h2 id="h2-contato">Realize seu contato conosco</h2>
+            <form class="info-contato" action="./retorno-contato.html" method="get">
+                <label class="label-contato" for="nome">Nome:</label>
+                <input class="input-contato" id="nome" type="text" placeholder="Digite seu nome:">
+                <label class="label-contato" for="telefone">Telefone:</label>
+                <input class="input-contato" id="telefone" type="text" placeholder="Digite o número:">
+                <label class="label-contato" for="email">E-mail:</label>
+                <input class="input-contato" id="email" type="email" placeholder="Digite seu email:">
+                <label class='label-contato' for="titulo">Titulo:</label>
+                <input class="input-contato" id="titulo" type="text" placeholder="Digite o titulo:" required>
+                <label class="label-contato" for="categoria">Categoria:</label>
+                <select id="select-form" name="categoria" id="categoria" required>
+                    <option value="elogio">Elogio</option>
+                    <option value="reclamação">Reclamação</option>
+                    <option value="sugestão">Sugestão</option>
+                    <option value="duvida">Dúvida</option>
+                </select>
+                <label for="mensagem" class="label-contato">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" required placeholder="Digite sua mensagem"></textarea>
+                <div class="botões">
+                    <input id="enviar" type="submit" value="Enviar">
+                    <input id="deletar" type="reset" value="Deletar">
+                </div>
+            </form>
+            <h2 id="h2-contato">Entretenimento</h2>
+            <div class="audio-contato">
+                <audio src="./audio/just-relax-11157.mp3" controls autoplay></audio>
+            </div>
+            <h2 id="h2-contato">Saiba onde nos encontrar</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.4097037116503!2d-35.26784838541268!3d-5.938130795698426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2577c0c020119%3A0x860676460df8a5eb!2sIFRN%20Parnamirim%20-%20(Ens.%20T%C3%A9cnico%2C%20Grad.%20e%20Espec.)!5e0!3m2!1spt-BR!2sbr!4v1661449575971!5m2!1spt-BR!2sbr"
+                width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+    </main>
+    <footer>
+        <div class="footer-layout">
+            <h2>Siga-nos também nas redes sociais:</h2>
+            <div class="icons-footer">
+                <img class="link-icons" src="./img/instagram-svgrepo-com.svg" alt="">
+                <li class="footer-li"><a href="#">Instagram</a></li>
+                <img class="link-icons" src="./img/icons8-facebook-novo.svg" alt="">
+                <li class="footer-li"><a href="#">Facebook</a></li>
+                <img class="link-icons" src="./img/icons8-whatsapp.svg" alt="">
+                <li class="footer-li"><a href="#">Whatsapp</a></li>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
